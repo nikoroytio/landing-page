@@ -1,0 +1,155 @@
+/* stylesheet for the landing page */
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1920px;
+    margin:auto;
+    font-family: Roboto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding-right: 50px;
+
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB ;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    white-space: pre-wrap;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+i {
+    font-family: Roboto;
+    font-size: 36px;
+}
+
+
+
+button {
+    color:#f9faf8;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    border-style: none;
+    max-width: 120px;
+}
+
+button:hover{
+    opacity: 50%;
+}
+
+.header{
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+    
+}
+
+.logo{
+    max-width: 100px;
+    padding-left: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Hero-section{
+    background: #1f2937;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB ;
+    margin-top: -15px;
+    white-space: pre-wrap;
+}
+
+.hero-picture {
+    max-width: 920px;
+    padding-right: 50px;
+}
+
+.information-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.icon {
+    max-width: 120px;
+    max-height: 120px;
+
+}
+.card-holder{
+    display: flex;
+    gap: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    max-width: 200px;
+    text-align: center;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 16px;
+}
+
+.card,p{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials{
+ background-color: #E5E7EB;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
